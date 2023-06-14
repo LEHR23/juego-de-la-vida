@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego de la Vida</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main class="contenedor">
+        <div class="plantilla">
+
+        </div>
+    </main>
+    <section class="controles contenedor">
+        <p class="btnres">RESETEAR</p>
+        <P class="btnini">INICIAR</P>
+        <P class="btnexp">EXPLICACION</P>
+    </section>
+    <div class="info">
+        <p>El «Juego de la Vida» de Conway, o simplemente «Vida», tiene poco de juego. No tiene jugadores, no se puede «ganar» y no se puede «perder». No parece muy interesante, sin embargo ha cautivado a matemáticos y programadores desde sus orígenes hace 50 años.
+
+            Se «juega» sobre un tablero parecido al del ajedrez, sobre una cuadrícula. Pero a diferencia del ajedrez o la mayoría de juegos, el único control que tenemos como «jugador» es la posición de las piezas iniciales.
+            
+            Una vez el juego empieza, no tenemos ningún control. Las reglas determinan cómo acaba el juego.</p>
+        <p>
+            Las reglas del juego son las siguientes:<br>
+            
+                Si una célula está viva y tiene dos o tres vecinas vivas, sobrevive.<br>
+                Si una célula está muerta y tiene tres vecinas vivas, nace.<br>
+                Si una célula está viva y tiene más de tres vecinas vivas, muere.<br><br>
+            
+            La disposición o patrón inicial de células se llama «semilla». La siguiente generación nace de aplicar las reglas del juego a todas las células de manera simultánea.
+            
+            Este proceso se puede ejecutar de manera indefinida.</p>
+        <p class="btninfo">CERRAR</p>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
